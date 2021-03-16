@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11F3F05A6984254503C065A1 /* Pods_QuranAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3A469922A929FDFE5B625A /* Pods_QuranAppTests.framework */; };
+		2552F2A026009D5500C3D3FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2552F29F26009D5500C3D3FF /* AppDelegate.swift */; };
+		2552F2A226009D5500C3D3FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2552F2A126009D5500C3D3FF /* SceneDelegate.swift */; };
+		2552F2A426009D5500C3D3FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2552F2A326009D5500C3D3FF /* ViewController.swift */; };
+		2552F2A726009D5500C3D3FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2552F2A526009D5500C3D3FF /* Main.storyboard */; };
+		2552F2A926009D5600C3D3FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2552F2A826009D5600C3D3FF /* Assets.xcassets */; };
+		2552F2AC26009D5600C3D3FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2552F2AA26009D5600C3D3FF /* LaunchScreen.storyboard */; };
+		2552F2B726009D5600C3D3FF /* QuranAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2552F2B626009D5600C3D3FF /* QuranAppTests.swift */; };
+		2552F2C226009D5600C3D3FF /* QuranAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2552F2C126009D5600C3D3FF /* QuranAppUITests.swift */; };
+		2552F2DE2600B9FE00C3D3FF /* quran-simple.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2552F2DD2600B9FE00C3D3FF /* quran-simple.txt */; };
+		2552F2E32600BAEC00C3D3FF /* Quran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2552F2E22600BAEC00C3D3FF /* Quran.swift */; };
+		2552F2EA2600BB1A00C3D3FF /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2552F2E92600BB1A00C3D3FF /* Constant.swift */; };
+		2552F2F02600BB4D00C3D3FF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2552F2EF2600BB4D00C3D3FF /* DataManager.swift */; };
+		2552F2F62600BFEE00C3D3FF /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2552F2F52600BFEE00C3D3FF /* ListCell.swift */; };
+		2552F2FF2600C15100C3D3FF /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2552F2FE2600C15100C3D3FF /* String+Extension.swift */; };
+		2552F3102600C20C00C3D3FF /* Toster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2552F30F2600C20C00C3D3FF /* Toster.swift */; };
+		49082E70DFC84AE903C3ACA3 /* Pods_QuranApp_QuranAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3159EDC0741E70802F7D62 /* Pods_QuranApp_QuranAppUITests.framework */; };
+		5723CECBBAFB7591C51E0A3F /* Pods_QuranApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F6F51E2F952377B100CB87 /* Pods_QuranApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2552F2B326009D5600C3D3FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2552F29426009D5400C3D3FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2552F29B26009D5500C3D3FF;
+			remoteInfo = QuranApp;
+		};
+		2552F2BE26009D5600C3D3FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2552F29426009D5400C3D3FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2552F29B26009D5500C3D3FF;
+			remoteInfo = QuranApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2552F29C26009D5500C3D3FF /* QuranApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2552F29F26009D5500C3D3FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2552F2A126009D5500C3D3FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2552F2A326009D5500C3D3FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2552F2A626009D5500C3D3FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2552F2A826009D5600C3D3FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2552F2AB26009D5600C3D3FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2552F2AD26009D5600C3D3FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2552F2B226009D5600C3D3FF /* QuranAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuranAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2552F2B626009D5600C3D3FF /* QuranAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranAppTests.swift; sourceTree = "<group>"; };
+		2552F2B826009D5600C3D3FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2552F2BD26009D5600C3D3FF /* QuranAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuranAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2552F2C126009D5600C3D3FF /* QuranAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranAppUITests.swift; sourceTree = "<group>"; };
+		2552F2C326009D5600C3D3FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2552F2DD2600B9FE00C3D3FF /* quran-simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "quran-simple.txt"; sourceTree = "<group>"; };
+		2552F2E22600BAEC00C3D3FF /* Quran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quran.swift; sourceTree = "<group>"; };
+		2552F2E92600BB1A00C3D3FF /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2552F2EF2600BB4D00C3D3FF /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		2552F2F52600BFEE00C3D3FF /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		2552F2FE2600C15100C3D3FF /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		2552F30F2600C20C00C3D3FF /* Toster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toster.swift; sourceTree = "<group>"; };
+		5B82C14310D9DD187F1CF575 /* Pods-QuranApp-QuranAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuranApp-QuranAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuranApp-QuranAppUITests/Pods-QuranApp-QuranAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		736ABF15998D72AE1B9B4AAB /* Pods-QuranApp-QuranAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuranApp-QuranAppUITests.release.xcconfig"; path = "Target Support Files/Pods-QuranApp-QuranAppUITests/Pods-QuranApp-QuranAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E3159EDC0741E70802F7D62 /* Pods_QuranApp_QuranAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuranApp_QuranAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD74AF73E31D943A10FDB7F /* Pods-QuranAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuranAppTests.debug.xcconfig"; path = "Target Support Files/Pods-QuranAppTests/Pods-QuranAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C448A3622A41FEBF7A39CBF6 /* Pods-QuranApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuranApp.release.xcconfig"; path = "Target Support Files/Pods-QuranApp/Pods-QuranApp.release.xcconfig"; sourceTree = "<group>"; };
+		C7F6F51E2F952377B100CB87 /* Pods_QuranApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuranApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF02BD45ECCBA6897B24B38 /* Pods-QuranApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuranApp.debug.xcconfig"; path = "Target Support Files/Pods-QuranApp/Pods-QuranApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E6ABC6001810EC19AC85B3D6 /* Pods-QuranAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuranAppTests.release.xcconfig"; path = "Target Support Files/Pods-QuranAppTests/Pods-QuranAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF3A469922A929FDFE5B625A /* Pods_QuranAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuranAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2552F29926009D5500C3D3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5723CECBBAFB7591C51E0A3F /* Pods_QuranApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2552F2AF26009D5600C3D3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F3F05A6984254503C065A1 /* Pods_QuranAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2552F2BA26009D5600C3D3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49082E70DFC84AE903C3ACA3 /* Pods_QuranApp_QuranAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2552F29326009D5400C3D3FF = {
+			isa = PBXGroup;
+			children = (
+				2552F29E26009D5500C3D3FF /* QuranApp */,
+				2552F2B526009D5600C3D3FF /* QuranAppTests */,
+				2552F2C026009D5600C3D3FF /* QuranAppUITests */,
+				2552F29D26009D5500C3D3FF /* Products */,
+				C83A87EB57A707D7E59F253C /* Pods */,
+				A43928578419E6E2F1B3282B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2552F29D26009D5500C3D3FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2552F29C26009D5500C3D3FF /* QuranApp.app */,
+				2552F2B226009D5600C3D3FF /* QuranAppTests.xctest */,
+				2552F2BD26009D5600C3D3FF /* QuranAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2552F29E26009D5500C3D3FF /* QuranApp */ = {
+			isa = PBXGroup;
+			children = (
+				2552F2FD2600C14300C3D3FF /* Extension */,
+				2552F2F42600BFDB00C3D3FF /* ViewController */,
+				2552F2EE2600BB4100C3D3FF /* Utility */,
+				2552F2E82600BB0D00C3D3FF /* Constants */,
+				2552F2E72600BB0400C3D3FF /* Model */,
+				2552F29F26009D5500C3D3FF /* AppDelegate.swift */,
+				2552F2A126009D5500C3D3FF /* SceneDelegate.swift */,
+				2552F2DD2600B9FE00C3D3FF /* quran-simple.txt */,
+				2552F2A526009D5500C3D3FF /* Main.storyboard */,
+				2552F2A826009D5600C3D3FF /* Assets.xcassets */,
+				2552F2AA26009D5600C3D3FF /* LaunchScreen.storyboard */,
+				2552F2AD26009D5600C3D3FF /* Info.plist */,
+			);
+			path = QuranApp;
+			sourceTree = "<group>";
+		};
+		2552F2B526009D5600C3D3FF /* QuranAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2552F2B626009D5600C3D3FF /* QuranAppTests.swift */,
+				2552F2B826009D5600C3D3FF /* Info.plist */,
+			);
+			path = QuranAppTests;
+			sourceTree = "<group>";
+		};
+		2552F2C026009D5600C3D3FF /* QuranAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2552F2C126009D5600C3D3FF /* QuranAppUITests.swift */,
+				2552F2C326009D5600C3D3FF /* Info.plist */,
+			);
+			path = QuranAppUITests;
+			sourceTree = "<group>";
+		};
+		2552F2E72600BB0400C3D3FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2552F2E22600BAEC00C3D3FF /* Quran.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2552F2E82600BB0D00C3D3FF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2552F2E92600BB1A00C3D3FF /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2552F2EE2600BB4100C3D3FF /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2552F2EF2600BB4D00C3D3FF /* DataManager.swift */,
+				2552F30F2600C20C00C3D3FF /* Toster.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2552F2F42600BFDB00C3D3FF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2552F2A326009D5500C3D3FF /* ViewController.swift */,
+				2552F2F52600BFEE00C3D3FF /* ListCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2552F2FD2600C14300C3D3FF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2552F2FE2600C15100C3D3FF /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A43928578419E6E2F1B3282B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7F6F51E2F952377B100CB87 /* Pods_QuranApp.framework */,
+				7E3159EDC0741E70802F7D62 /* Pods_QuranApp_QuranAppUITests.framework */,
+				FF3A469922A929FDFE5B625A /* Pods_QuranAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C83A87EB57A707D7E59F253C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDF02BD45ECCBA6897B24B38 /* Pods-QuranApp.debug.xcconfig */,
+				C448A3622A41FEBF7A39CBF6 /* Pods-QuranApp.release.xcconfig */,
+				5B82C14310D9DD187F1CF575 /* Pods-QuranApp-QuranAppUITests.debug.xcconfig */,
+				736ABF15998D72AE1B9B4AAB /* Pods-QuranApp-QuranAppUITests.release.xcconfig */,
+				BCD74AF73E31D943A10FDB7F /* Pods-QuranAppTests.debug.xcconfig */,
+				E6ABC6001810EC19AC85B3D6 /* Pods-QuranAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2552F29B26009D5500C3D3FF /* QuranApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2552F2C626009D5600C3D3FF /* Build configuration list for PBXNativeTarget "QuranApp" */;
+			buildPhases = (
+				B5F440A063FE1854CD092E1D /* [CP] Check Pods Manifest.lock */,
+				2552F29826009D5500C3D3FF /* Sources */,
+				2552F29926009D5500C3D3FF /* Frameworks */,
+				2552F29A26009D5500C3D3FF /* Resources */,
+				6BB24FC24255ACEB1498E41D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuranApp;
+			productName = QuranApp;
+			productReference = 2552F29C26009D5500C3D3FF /* QuranApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2552F2B126009D5600C3D3FF /* QuranAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2552F2C926009D5600C3D3FF /* Build configuration list for PBXNativeTarget "QuranAppTests" */;
+			buildPhases = (
+				AC3D04DAAE254A9A918F9799 /* [CP] Check Pods Manifest.lock */,
+				2552F2AE26009D5600C3D3FF /* Sources */,
+				2552F2AF26009D5600C3D3FF /* Frameworks */,
+				2552F2B026009D5600C3D3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2552F2B426009D5600C3D3FF /* PBXTargetDependency */,
+			);
+			name = QuranAppTests;
+			productName = QuranAppTests;
+			productReference = 2552F2B226009D5600C3D3FF /* QuranAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2552F2BC26009D5600C3D3FF /* QuranAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2552F2CC26009D5600C3D3FF /* Build configuration list for PBXNativeTarget "QuranAppUITests" */;
+			buildPhases = (
+				37AFEF57E7633EAF4F5DE528 /* [CP] Check Pods Manifest.lock */,
+				2552F2B926009D5600C3D3FF /* Sources */,
+				2552F2BA26009D5600C3D3FF /* Frameworks */,
+				2552F2BB26009D5600C3D3FF /* Resources */,
+				2D2F1B0C813DA3C187BDC0EC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2552F2BF26009D5600C3D3FF /* PBXTargetDependency */,
+			);
+			name = QuranAppUITests;
+			productName = QuranAppUITests;
+			productReference = 2552F2BD26009D5600C3D3FF /* QuranAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2552F29426009D5400C3D3FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2552F29B26009D5500C3D3FF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2552F2B126009D5600C3D3FF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2552F29B26009D5500C3D3FF;
+					};
+					2552F2BC26009D5600C3D3FF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2552F29B26009D5500C3D3FF;
+					};
+				};
+			};
+			buildConfigurationList = 2552F29726009D5400C3D3FF /* Build configuration list for PBXProject "QuranApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2552F29326009D5400C3D3FF;
+			productRefGroup = 2552F29D26009D5500C3D3FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2552F29B26009D5500C3D3FF /* QuranApp */,
+				2552F2B126009D5600C3D3FF /* QuranAppTests */,
+				2552F2BC26009D5600C3D3FF /* QuranAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2552F29A26009D5500C3D3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2552F2DE2600B9FE00C3D3FF /* quran-simple.txt in Resources */,
+				2552F2AC26009D5600C3D3FF /* LaunchScreen.storyboard in Resources */,
+				2552F2A926009D5600C3D3FF /* Assets.xcassets in Resources */,
+				2552F2A726009D5500C3D3FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2552F2B026009D5600C3D3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2552F2BB26009D5600C3D3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D2F1B0C813DA3C187BDC0EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuranApp-QuranAppUITests/Pods-QuranApp-QuranAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuranApp-QuranAppUITests/Pods-QuranApp-QuranAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuranApp-QuranAppUITests/Pods-QuranApp-QuranAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37AFEF57E7633EAF4F5DE528 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuranApp-QuranAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BB24FC24255ACEB1498E41D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuranApp/Pods-QuranApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuranApp/Pods-QuranApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuranApp/Pods-QuranApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC3D04DAAE254A9A918F9799 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuranAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F440A063FE1854CD092E1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuranApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2552F29826009D5500C3D3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2552F3102600C20C00C3D3FF /* Toster.swift in Sources */,
+				2552F2FF2600C15100C3D3FF /* String+Extension.swift in Sources */,
+				2552F2A426009D5500C3D3FF /* ViewController.swift in Sources */,
+				2552F2F02600BB4D00C3D3FF /* DataManager.swift in Sources */,
+				2552F2E32600BAEC00C3D3FF /* Quran.swift in Sources */,
+				2552F2F62600BFEE00C3D3FF /* ListCell.swift in Sources */,
+				2552F2EA2600BB1A00C3D3FF /* Constant.swift in Sources */,
+				2552F2A026009D5500C3D3FF /* AppDelegate.swift in Sources */,
+				2552F2A226009D5500C3D3FF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2552F2AE26009D5600C3D3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2552F2B726009D5600C3D3FF /* QuranAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2552F2B926009D5600C3D3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2552F2C226009D5600C3D3FF /* QuranAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2552F2B426009D5600C3D3FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2552F29B26009D5500C3D3FF /* QuranApp */;
+			targetProxy = 2552F2B326009D5600C3D3FF /* PBXContainerItemProxy */;
+		};
+		2552F2BF26009D5600C3D3FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2552F29B26009D5500C3D3FF /* QuranApp */;
+			targetProxy = 2552F2BE26009D5600C3D3FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2552F2A526009D5500C3D3FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2552F2A626009D5500C3D3FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2552F2AA26009D5600C3D3FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2552F2AB26009D5600C3D3FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2552F2C426009D5600C3D3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2552F2C526009D5600C3D3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2552F2C726009D5600C3D3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF02BD45ECCBA6897B24B38 /* Pods-QuranApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JL7UN6UZC;
+				INFOPLIST_FILE = QuranApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.QuranApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2552F2C826009D5600C3D3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C448A3622A41FEBF7A39CBF6 /* Pods-QuranApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JL7UN6UZC;
+				INFOPLIST_FILE = QuranApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.QuranApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2552F2CA26009D5600C3D3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD74AF73E31D943A10FDB7F /* Pods-QuranAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JL7UN6UZC;
+				INFOPLIST_FILE = QuranAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.QuranAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuranApp.app/QuranApp";
+			};
+			name = Debug;
+		};
+		2552F2CB26009D5600C3D3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6ABC6001810EC19AC85B3D6 /* Pods-QuranAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JL7UN6UZC;
+				INFOPLIST_FILE = QuranAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.QuranAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuranApp.app/QuranApp";
+			};
+			name = Release;
+		};
+		2552F2CD26009D5600C3D3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B82C14310D9DD187F1CF575 /* Pods-QuranApp-QuranAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JL7UN6UZC;
+				INFOPLIST_FILE = QuranAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.QuranAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuranApp;
+			};
+			name = Debug;
+		};
+		2552F2CE26009D5600C3D3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 736ABF15998D72AE1B9B4AAB /* Pods-QuranApp-QuranAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JL7UN6UZC;
+				INFOPLIST_FILE = QuranAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.QuranAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuranApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2552F29726009D5400C3D3FF /* Build configuration list for PBXProject "QuranApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2552F2C426009D5600C3D3FF /* Debug */,
+				2552F2C526009D5600C3D3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2552F2C626009D5600C3D3FF /* Build configuration list for PBXNativeTarget "QuranApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2552F2C726009D5600C3D3FF /* Debug */,
+				2552F2C826009D5600C3D3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2552F2C926009D5600C3D3FF /* Build configuration list for PBXNativeTarget "QuranAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2552F2CA26009D5600C3D3FF /* Debug */,
+				2552F2CB26009D5600C3D3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2552F2CC26009D5600C3D3FF /* Build configuration list for PBXNativeTarget "QuranAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2552F2CD26009D5600C3D3FF /* Debug */,
+				2552F2CE26009D5600C3D3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2552F29426009D5400C3D3FF /* Project object */;
+}
